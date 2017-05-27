@@ -11,11 +11,11 @@ $ npm i
 ## 本地
 
 ```
-hexo server
+$ npm start
 ```
 
 ## 发布
 
 ```
-npm run deploy
+$ npm run deploy
 ```
