@@ -2,6 +2,10 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts":{
+    "start": "hexo s -o -p 8888",
+    "deploy" : "hexo generate && surge -p public -d qfight.us"
+  },
   "hexo": {
     "version": "3.3.7"
   },
